@@ -1,0 +1,94 @@
+
+ body{
+   background-color: rgb(0, 0, 0);
+  
+   background-repeat: repeat;
+   color:white; 
+   padding: 10px;
+  
+   
+
+ }
+ .form-control me-2{
+    color:brown;
+ }
+ .jumbotron{
+    background-color: rgb(106, 131, 17);
+    color:black;
+ }
+ .box{
+    margin-top: 100px;
+    padding: 15px;
+    width: auto;
+    height: auto;
+    padding-bottom: 50px;
+    
+   
+    border: 20px solid  rgb(106, 131, 17);
+ }
+ .box>h3{
+   color:white;
+ }
+ img { 
+   max-width: 100%;
+   height: auto;
+   opacity: 0.5;
+ }
+ /* The animation code */
+@keyframes example {
+   0%   {background-color: rgb(106, 131, 17); left:0px; top:0px;}
+   25%  {background-color:rgb(10, 27, 155); left:200px; top:0px;}
+   50%  {background-color: rgb(106, 131, 17); left:200px; top:200px;}
+   75%  {background-color:rgb(10, 27, 155); left:0px; top:200px;}
+   100% {background-color: rgb(106, 131, 17); left:0px; top:0px;}
+    }
+ @keyframes example1 {
+   0%   {background-color:  rgb(10, 27, 155); right:0px; top:0px;}
+   25%  {background-color:rgb(106, 131, 17); right:200px; top:0px;}
+   50%  {background-color: rgb(10, 27, 155); right:200px; top:300px;}
+   75%  {background-color:rgb(106, 131, 17); right:0px; top:300px;}
+   100% {background-color: rgb(10, 27, 155); right:0px; top:0px;}
+ }
+ 
+ /* The element to apply the animation to */
+ .animi {
+   width: 100%;
+   height: auto;
+   position: relative;
+   background-color:rgb(10, 27, 155);
+   animation-name: example;
+   animation-duration:4s;
+   animation-iteration-count: infinite;
+   padding-bottom: 10px;
+   
+ }
+ .animirev {
+   
+      width: 100%;
+      height: auto;
+      position:relative;
+      background-color:rgb(10, 27, 155);
+      animation-name: example1;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      float:right;
+      
+      
+    
+    
+ }
+h3{
+   color:black;
+}
+h2{
+   padding-top:30px;
+}
+
+.font >h3{
+   
+   color:white;
+}
+.change>h4{
+   color: rgb(106, 131, 17);
+}
+
